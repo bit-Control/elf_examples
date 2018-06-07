@@ -1,0 +1,4 @@
+$ nm hello_elf.o
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U puts
