@@ -1,9 +1,3 @@
-$ gcc hello_elf.c -c
-hello_elf.c  hello_elf.o
-
-$ gcc hello_elf.o -o hello_elf
-hello_elf  hello_elf.c  hello_elf.o
-
 $ file hello_elf
 hello_elf: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=903933b2e260bf466fe01827cda46c2404e33866, not stripped
 
