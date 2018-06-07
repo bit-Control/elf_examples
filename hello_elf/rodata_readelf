@@ -1,0 +1,4 @@
+$ readelf -x .rodata hello_elf.o
+
+Hex dump of section '.rodata':
+  0x00000000 48656c6c 6f20576f 726c6400          Hello World.
