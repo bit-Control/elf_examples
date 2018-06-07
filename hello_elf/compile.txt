@@ -1,0 +1,5 @@
+$ gcc hello_elf.c -c
+hello_elf.c  hello_elf.o
+
+$ gcc hello_elf.o -o hello_elf
+hello_elf  hello_elf.c  hello_elf.o
