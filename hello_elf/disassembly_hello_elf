@@ -1,4 +1,4 @@
-readelf -s hello_elf.o
+$ readelf -s hello_elf.o
 
 Symbol table '.symtab' contains 12 entries:
    Num:    Value          Size Type    Bind   Vis      Ndx Name
