@@ -1,0 +1,10 @@
+$ readelf -r hello_elf.o
+
+Relocation section '.rela.text' at offset 0x220 contains 2 entries:
+  Offset          Info           Type           Sym. Value    Sym. Name + Addend
+000000000012  000500000002 R_X86_64_PC32     0000000000000000 .rodata - 4
+00000000001c  000b00000004 R_X86_64_PLT32    0000000000000000 printf - 4
+
+Relocation section '.rela.eh_frame' at offset 0x250 contains 1 entry:
+  Offset          Info           Type           Sym. Value    Sym. Name + Addend
+000000000020  000200000002 R_X86_64_PC32     0000000000000000 .text + 0
